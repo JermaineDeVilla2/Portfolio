@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiz="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8b52b60614.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Logo.png" class="logo"> 
+                    <ul>
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#"> About</a></li>
+                        <li><a href="#"> Services</a></li>
+                        <li><a href="#"> Portfolio</a></li>
+                        <li><a href="#"> Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Aspiring Developer</p>
+                    <h1>Hi, I'm <span> Jermaine </span><br>De Villa From Philippines</h1>
+                </div>
+            </div>
+        </div>
+        <!------About------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src = "images/user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi! I'm Jermaine De Villa aspiring Full-Stack Developer, I'm Passionatte in learning more about different Language of Programming as well on designing.
+                           I know my knowledge and skill is not enough in real IT Industry. So I am eager to practice and learn more everyday to enhance my skills and knowledge to fit in IT Industry.</p>
+
+                          <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Creating and Maintaing Websites and Web Applications</li>
+                                <li><span>Data Entry</span><br>Inputing and Managing Data</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>BIR Application Assistance</span><br>Canossa Academy (Work Immersion)</li>
+                                <li><span>HTML, CSS and JavaScript</span><br>University of Batangas</li>
+                                <li><span>Excel and Quickbook</span><br>Almighty Feedmills Inc.(Internship)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Tertiary (2023-Present)</span><br>University of Batangas Lipa City</li>
+                                <li><span>Tertiary (2021-2022)</span><br>Lyceum of the Philippines Batangas</li>
+                                <li><span>Secondary (2015-2021)</span><br>Canossa Academy Lipa City Inc.</li>
+                                <li><span>Primary (2009-2015)</span><br>San Lorenzo Ruiz School Lipa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------Services-------->
+         <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>I build simple and responsive websites using HTML, CSS, and JavaScript. I'm continuously learning and improving my front-end development skills.<br><br>
+                            Skills: HTML, CSS, JavaScript (Basic)</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Learning UI/UX Design</h2>
+                        <p>I practice designing user-friendly website layouts and improving user experience with modern design trends.<br><br><br>
+                            Skills: Figma, Basic CSS Styling</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!--------Portfolio-------->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Project</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/proj1.png">
+                        <div class="layer">
+                            <h3>Loaning System</h3>
+                            <p>A loaning system for COOP farmers that allows them to borrow money, set due dates, and apply interest on overdue payments.
+                                It collects the loan purpose and requires admin approval for applications. Built with HTML, CSS, JS, PHP and phpMyAdmin.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/proj2.jpg">
+                       <div class="layer">
+                        <h3>Rice Inventory</h3>
+                        <p>A Rice Inventory System made in Visual Basic to streamline storage and distribution.
+                           Management can add, update, and remove stock, while customers can select the brand, weight, and quantity to view prices automatically.</p>
+                           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/proj3.png">
+                       <div class="layer">
+                        <h3>PrimaryEdHub</h3>
+                        <p>This website is designed for kids in kindergarten through grade 2, allowing them to study, view videos, and take quizzes from the convenience of home. 
+                             Admins can add, update, and delete modules and videos from the system.</p>
+                           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+         </div>
+         <!--------Contact-------->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1:class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> ivondevilla8@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile-screen"></i> 09293217206</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/share/1CFpEGoNMp/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/allendevilla0?s=21&t=LhAhDLeI481_G8KYPAvslQ"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/jiadevilla?igsh=MWFpaDRqNnhhbXFjdg==&utm_source=ig_contact_invite"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/jermaine-ivon-allen-de-villa-408548348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="Images/CV_De Villa, JIA.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Jermaine Ivon Allen P. De Villa <i class="fa-solid fa-user-tie"></i></p>
+            </div>
+         </div>
+
+        <script>
+            var tablink = document.getElementsByClassName("tab-links");
+            var tabcontents= document.getElementsByClassName("tab-contents");
+
+            function opentab(tabName) {
+           
+            const contents = document.querySelectorAll('.tab-contents');
+            contents.forEach(content => {
+            content.classList.remove('active-tab');
+            });
+
+            const links = document.querySelectorAll('.tab-links');
+            links.forEach(link => {
+             link.classList.remove('active-link');
+             });
+
+             document.getElementById(tabName).classList.add('active-tab');
+             event.target.classList.add('active-link');
+            }
+        </script>
+    </body>
+    </html>
